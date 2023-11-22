@@ -1,4 +1,6 @@
 import { getLista } from "../src/lista.js";
+import { adicionaNaLista } from "../src/lista.js";
+import { limpaLista } from "../src/lista.js";
 
 const pEntrada = document.querySelector("#entrada");
 const btnAdicionar = document.querySelector("#adicionar");
@@ -28,6 +30,7 @@ function atualizarListaOrdenada(){
     {
         adicionaElementoNaListaOrdenada(lista[i]);
     }
+    
 }
 
 function adicionaElementoNaListaOrdenada(texto){

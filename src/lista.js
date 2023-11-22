@@ -1,4 +1,4 @@
-const lista = ["Um", "Dois", "Três", "Quatro"];
+const lista = ["Um", "Dois", "Três"];
 
 function getLista(){
     return lista;
