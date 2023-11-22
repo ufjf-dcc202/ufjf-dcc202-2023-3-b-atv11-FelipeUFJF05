@@ -1,6 +1,4 @@
-import { getLista } from "../src/lista.js";
-import { adicionaNaLista } from "../src/lista.js";
-import { limpaLista } from "../src/lista.js";
+import { getLista , adicionaNaLista, limpaLista } from "./lista.js";
 
 const pEntrada = document.querySelector("#entrada");
 const btnAdicionar = document.querySelector("#adicionar");
